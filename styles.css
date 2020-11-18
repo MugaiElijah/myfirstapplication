@@ -1,0 +1,56 @@
+body{
+    background-color: beige; 
+}
+h1{
+    text-align: center;
+}
+
+.food{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+h5{
+    font-size: medium;
+    color: red;
+    text-align: center;
+}
+
+section{
+    text-align: left;
+}
+
+p{
+    text-decoration-color: seagreen;
+}
+
+{
+    float: left;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+{
+    box-sizing: border-box;
+}
+
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+form{
+    border-style: dotted;
+}
